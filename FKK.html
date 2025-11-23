@@ -274,7 +274,7 @@
 <body>
 
   <header>
-    <div class="brand">Flaps & Konig <span>Knowledge 1.0</span></div>
+    <div class="brand">Flaps & Konig <span>Latin Pi 1.1</span></div>
     
     <div class="top-controls">
       <!-- MODE SWITCHER -->
@@ -886,19 +886,99 @@ const dbStates = [
 { "n": "Santo Domingo de los Tsáchilas (Ecuador)", "t": ["reg_sa","p_ecu","geo_mtn","geo_fst","geo_des","geo_bch","geo_isl","geo_riv","geo_lnd","geo_cst","geo_pln","cl_cold","cl_hot","cl_trop","cl_snow","cl_rain","cl_temp","soc_safe","soc_rich","soc_dev","soc_lib","soc_con","inf_good","inf_bad","dr_r","dr_l","v_110","v_220","food_spi","food_bld","rel_chr","rel_isl","rel_bud","lang_en","lang_sp","lang_fr","lang_ro","pol_eu","pol_nato","pol_visa_easy","pol_schen","gov_rep","gov_mon","misc_bear","misc_pop_hi","misc_pop_lo","misc_hist"] },
 { "n": "Sucumbíos (Ecuador)", "t": ["reg_sa","p_ecu","geo_mtn","geo_fst","geo_des","geo_bch","geo_isl","geo_riv","geo_lnd","geo_cst","geo_pln","cl_cold","cl_hot","cl_trop","cl_snow","cl_rain","cl_temp","soc_safe","soc_rich","soc_dev","soc_lib","soc_con","inf_good","inf_bad","dr_r","dr_l","v_110","v_220","food_spi","food_bld","rel_chr","rel_isl","rel_bud","lang_en","lang_sp","lang_fr","lang_ro","pol_eu","pol_nato","pol_visa_easy","pol_schen","gov_rep","gov_mon","misc_bear","misc_pop_hi","misc_pop_lo","misc_hist"] },
 { "n": "Tungurahua (Ecuador)", "t": ["reg_sa","p_ecu","geo_mtn","geo_fst","geo_des","geo_bch","geo_isl","geo_riv","geo_lnd","geo_cst","geo_pln","cl_cold","cl_hot","cl_trop","cl_snow","cl_rain","cl_temp","soc_safe","soc_rich","soc_dev","soc_lib","soc_con","inf_good","inf_bad","dr_r","dr_l","v_110","v_220","food_spi","food_bld","rel_chr","rel_isl","rel_bud","lang_en","lang_sp","lang_fr","lang_ro","pol_eu","pol_nato","pol_visa_easy","pol_schen","gov_rep","gov_mon","misc_bear","misc_pop_hi","misc_pop_lo","misc_hist"] },
-{ "n": "Zamora-Chinchipe (Ecuador)", "t": ["reg_sa","p_ecu","geo_mtn","geo_fst","geo_des","geo_bch","geo_isl","geo_riv","geo_lnd","geo_cst","geo_pln","cl_cold","cl_hot","cl_trop","cl_snow","cl_rain","cl_temp","soc_safe","soc_rich","soc_dev","soc_lib","soc_con","inf_good","inf_bad","dr_r","dr_l","v_110","v_220","food_spi","food_bld","rel_chr","rel_isl","rel_bud","lang_en","lang_sp","lang_fr","lang_ro","pol_eu","pol_nato","pol_visa_easy","pol_schen","gov_rep","gov_mon","misc_bear","misc_pop_hi","misc_pop_lo","misc_hist"] }
+{ "n": "Zamora-Chinchipe (Ecuador)", "t": ["reg_sa","p_ecu","geo_mtn","geo_fst","geo_des","geo_bch","geo_isl","geo_riv","geo_lnd","geo_cst","geo_pln","cl_cold","cl_hot","cl_trop","cl_snow","cl_rain","cl_temp","soc_safe","soc_rich","soc_dev","soc_lib","soc_con","inf_good","inf_bad","dr_r","dr_l","v_110","v_220","food_spi","food_bld","rel_chr","rel_isl","rel_bud","lang_en","lang_sp","lang_fr","lang_ro","pol_eu","pol_nato","pol_visa_easy","pol_schen","gov_rep","gov_mon","misc_bear","misc_pop_hi","misc_pop_lo","misc_hist"] },
 
 
+{ "n": "Amazonas (Colombia)", "t": ["reg_sa","p_col","geo_fst","geo_riv","geo_lnd","cl_hot","cl_trop","cl_rain","soc_dev","inf_bad","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_lo","misc_hist"] },
+{ "n": "Antioquia (Colombia)", "t": ["reg_sa","p_col","geo_mtn","geo_fst","geo_riv","cl_hot","cl_trop","cl_temp","cl_rain","soc_dev","inf_good","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Arauca (Colombia)", "t": ["reg_sa","p_col","geo_fst","geo_riv","geo_lnd","geo_pln","cl_hot","cl_trop","cl_rain","soc_dev","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_lo","misc_hist"] },
+{ "n": "Atlántico (Colombia)", "t": ["reg_sa","p_col","geo_bch","geo_riv","geo_cst","geo_pln","cl_hot","cl_trop","cl_rain","soc_dev","inf_good","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Bogotá D.C. (Colombia)", "t": ["reg_sa","p_col","geo_mtn","geo_lnd","cl_cold","cl_trop","cl_temp","cl_rain","soc_dev","inf_good","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Bolívar (Colombia)", "t": ["reg_sa","p_col","geo_bch","geo_riv","geo_cst","geo_pln","cl_hot","cl_trop","cl_rain","soc_dev","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Boyacá (Colombia)", "t": ["reg_sa","p_col","geo_mtn","geo_lnd","cl_cold","cl_trop","cl_temp","cl_rain","soc_dev","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Caldas (Colombia)", "t": ["reg_sa","p_col","geo_mtn","geo_fst","geo_riv","geo_lnd","cl_cold","cl_trop","cl_temp","cl_rain","soc_dev","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Caquetá (Colombia)", "t": ["reg_sa","p_col","geo_mtn","geo_fst","geo_riv","geo_lnd","cl_hot","cl_trop","cl_rain","soc_dev","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_lo","misc_hist"] },
+{ "n": "Casanare (Colombia)", "t": ["reg_sa","p_col","geo_fst","geo_riv","geo_lnd","geo_pln","cl_hot","cl_trop","cl_rain","soc_dev","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_lo","misc_hist"] },
+{ "n": "Cauca (Colombia)", "t": ["reg_sa","p_col","geo_mtn","geo_fst","geo_bch","geo_riv","geo_cst","cl_cold","cl_hot","cl_trop","cl_temp","cl_rain","soc_dev","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Cesar (Colombia)", "t": ["reg_sa","p_col","geo_mtn","geo_riv","geo_cst","geo_pln","cl_hot","cl_trop","cl_rain","soc_dev","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Chocó (Colombia)", "t": ["reg_sa","p_col","geo_mtn","geo_fst","geo_bch","geo_riv","geo_cst","cl_hot","cl_trop","cl_rain","soc_dev","inf_bad","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_lo","misc_hist"] },
+{ "n": "Córdoba (Colombia)", "t": ["reg_sa","p_col","geo_fst","geo_bch","geo_riv","geo_cst","geo_pln","cl_hot","cl_trop","cl_rain","soc_dev","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Cundinamarca (Colombia)", "t": ["reg_sa","p_col","geo_mtn","geo_fst","geo_riv","geo_lnd","cl_cold","cl_trop","cl_temp","cl_rain","soc_dev","inf_good","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Guainía (Colombia)", "t": ["reg_sa","p_col","geo_fst","geo_riv","geo_lnd","cl_hot","cl_trop","cl_rain","soc_dev","inf_bad","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_lo","misc_hist"] },
+{ "n": "Guaviare (Colombia)", "t": ["reg_sa","p_col","geo_fst","geo_riv","geo_lnd","cl_hot","cl_trop","cl_rain","soc_dev","inf_bad","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_lo","misc_hist"] },
+{ "n": "Huila (Colombia)", "t": ["reg_sa","p_col","geo_mtn","geo_fst","geo_riv","geo_lnd","cl_cold","cl_trop","cl_temp","cl_rain","soc_dev","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "La Guajira (Colombia)", "t": ["reg_sa","p_col","geo_des","geo_bch","geo_cst","geo_pln","cl_hot","cl_trop","soc_dev","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_lo","misc_hist"] },
+{ "n": "Magdalena (Colombia)", "t": ["reg_sa","p_col","geo_mtn","geo_fst","geo_bch","geo_riv","geo_cst","geo_pln","cl_hot","cl_trop","cl_rain","soc_dev","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Meta (Colombia)", "t": ["reg_sa","p_col","geo_mtn","geo_fst","geo_riv","geo_lnd","geo_pln","cl_hot","cl_trop","cl_rain","soc_dev","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Nariño (Colombia)", "t": ["reg_sa","p_col","geo_mtn","geo_fst","geo_bch","geo_cst","cl_cold","cl_hot","cl_trop","cl_temp","cl_rain","soc_dev","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Norte de Santander (Colombia)", "t": ["reg_sa","p_col","geo_mtn","geo_riv","geo_lnd","cl_cold","cl_trop","cl_temp","cl_rain","soc_dev","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Putumayo (Colombia)", "t": ["reg_sa","p_col","geo_mtn","geo_fst","geo_riv","geo_lnd","cl_hot","cl_trop","cl_rain","soc_dev","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_lo","misc_hist"] },
+{ "n": "Quindío (Colombia)", "t": ["reg_sa","p_col","geo_mtn","geo_fst","geo_riv","geo_lnd","cl_trop","cl_temp","cl_rain","soc_dev","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Risaralda (Colombia)", "t": ["reg_sa","p_col","geo_mtn","geo_fst","geo_riv","geo_lnd","cl_trop","cl_temp","cl_rain","soc_dev","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "San Andrés y Providencia (Colombia)", "t": ["reg_sa","p_col","geo_bch","geo_isl","geo_cst","cl_hot","cl_trop","cl_rain","soc_dev","dr_r","v_110","food_spi","rel_chr","lang_en","lang_sp","gov_rep","misc_pop_lo","misc_hist"] },
+{ "n": "Santander (Colombia)", "t": ["reg_sa","p_col","geo_mtn","geo_riv","geo_lnd","cl_cold","cl_trop","cl_temp","cl_rain","soc_dev","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Sucre (Colombia)", "t": ["reg_sa","p_col","geo_bch","geo_riv","geo_cst","geo_pln","cl_hot","cl_trop","cl_rain","soc_dev","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Tolima (Colombia)", "t": ["reg_sa","p_col","geo_mtn","geo_riv","geo_lnd","cl_cold","cl_hot","cl_trop","cl_temp","cl_rain","soc_dev","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Valle del Cauca (Colombia)", "t": ["reg_sa","p_col","geo_mtn","geo_bch","geo_riv","geo_cst","geo_pln","cl_cold","cl_hot","cl_trop","cl_temp","cl_rain","soc_dev","inf_good","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Vaupés (Colombia)", "t": ["reg_sa","p_col","geo_fst","geo_riv","geo_lnd","cl_hot","cl_trop","cl_rain","soc_dev","inf_bad","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_lo","misc_hist"] },
+{ "n": "Vichada (Colombia)", "t": ["reg_sa","p_col","geo_fst","geo_riv","geo_lnd","geo_pln","cl_hot","cl_trop","cl_rain","soc_dev","inf_bad","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_lo","misc_hist"] },
 
+{ "n": "Amazonas (Venezuela)", "t": ["reg_sa","p_ven","geo_fst","geo_riv","geo_lnd","cl_hot","cl_trop","cl_rain","soc_dev","inf_bad","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_lo","misc_hist"] },
+{ "n": "Anzoátegui (Venezuela)", "t": ["reg_sa","p_ven","geo_bch","geo_riv","geo_cst","geo_pln","cl_hot","cl_trop","cl_rain","soc_dev","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Apure (Venezuela)", "t": ["reg_sa","p_ven","geo_fst","geo_riv","geo_lnd","geo_pln","cl_hot","cl_trop","cl_rain","soc_dev","inf_bad","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_lo","misc_hist"] },
+{ "n": "Aragua (Venezuela)", "t": ["reg_sa","p_ven","geo_mtn","geo_bch","geo_cst","cl_hot","cl_trop","cl_temp","cl_rain","soc_dev","inf_good","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Barinas (Venezuela)", "t": ["reg_sa","p_ven","geo_mtn","geo_riv","geo_lnd","geo_pln","cl_hot","cl_trop","cl_rain","soc_dev","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Bolívar (Venezuela)", "t": ["reg_sa","p_ven","geo_fst","geo_riv","geo_lnd","cl_hot","cl_trop","cl_rain","soc_dev","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Carabobo (Venezuela)", "t": ["reg_sa","p_ven","geo_mtn","geo_bch","geo_cst","cl_hot","cl_trop","cl_temp","cl_rain","soc_dev","inf_good","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Cojedes (Venezuela)", "t": ["reg_sa","p_ven","geo_riv","geo_lnd","geo_pln","cl_hot","cl_trop","cl_rain","soc_dev","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_lo","misc_hist"] },
+{ "n": "Delta Amacuro (Venezuela)", "t": ["reg_sa","p_ven","geo_fst","geo_riv","geo_cst","cl_hot","cl_trop","cl_rain","soc_dev","inf_bad","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_lo","misc_hist"] },
+{ "n": "Falcón (Venezuela)", "t": ["reg_sa","p_ven","geo_des","geo_bch","geo_cst","geo_pln","cl_hot","cl_trop","cl_rain","soc_dev","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Guárico (Venezuela)", "t": ["reg_sa","p_ven","geo_riv","geo_lnd","geo_pln","cl_hot","cl_trop","cl_rain","soc_dev","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Lara (Venezuela)", "t": ["reg_sa","p_ven","geo_mtn","geo_lnd","cl_hot","cl_trop","cl_temp","cl_rain","soc_dev","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "La Guaira (Venezuela)", "t": ["reg_sa","p_ven","geo_mtn","geo_bch","geo_cst","cl_hot","cl_trop","cl_rain","soc_dev","inf_good","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_lo","misc_hist"] },
+{ "n": "Mérida (Venezuela)", "t": ["reg_sa","p_ven","geo_mtn","geo_lnd","cl_cold","cl_trop","cl_temp","cl_snow","cl_rain","soc_dev","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Miranda (Venezuela)", "t": ["reg_sa","p_ven","geo_mtn","geo_bch","geo_cst","cl_hot","cl_trop","cl_temp","cl_rain","soc_dev","inf_good","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Monagas (Venezuela)", "t": ["reg_sa","p_ven","geo_fst","geo_riv","geo_pln","cl_hot","cl_trop","cl_rain","soc_dev","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Nueva Esparta (Venezuela)", "t": ["reg_sa","p_ven","geo_bch","geo_isl","geo_cst","cl_hot","cl_trop","soc_dev","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Portuguesa (Venezuela)", "t": ["reg_sa","p_ven","geo_riv","geo_lnd","geo_pln","cl_hot","cl_trop","cl_rain","soc_dev","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Sucre (Venezuela)", "t": ["reg_sa","p_ven","geo_mtn","geo_bch","geo_cst","cl_hot","cl_trop","cl_rain","soc_dev","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Táchira (Venezuela)", "t": ["reg_sa","p_ven","geo_mtn","geo_riv","geo_lnd","cl_cold","cl_trop","cl_temp","cl_rain","soc_dev","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Trujillo (Venezuela)", "t": ["reg_sa","p_ven","geo_mtn","geo_lnd","cl_cold","cl_trop","cl_temp","cl_rain","soc_dev","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Yaracuy (Venezuela)", "t": ["reg_sa","p_ven","geo_mtn","geo_lnd","cl_hot","cl_trop","cl_temp","cl_rain","soc_dev","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Zulia (Venezuela)", "t": ["reg_sa","p_ven","geo_bch","geo_riv","geo_cst","geo_pln","cl_hot","cl_trop","cl_rain","soc_dev","inf_good","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Distrito Capital (Venezuela)", "t": ["reg_sa","p_ven","geo_mtn","geo_lnd","cl_hot","cl_trop","cl_temp","cl_rain","soc_dev","inf_good","dr_r","v_110","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+
+{ "n": "Amazonas (Peru)", "t": ["reg_sa","p_per","geo_mtn","geo_fst","geo_riv","geo_lnd","cl_hot","cl_trop","cl_rain","soc_dev","dr_r","v_220","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_lo","misc_hist"] },
+{ "n": "Áncash (Peru)", "t": ["reg_sa","p_per","geo_mtn","geo_bch","geo_cst","cl_cold","cl_trop","cl_temp","cl_snow","cl_rain","soc_dev","dr_r","v_220","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Apurímac (Peru)", "t": ["reg_sa","p_per","geo_mtn","geo_riv","geo_lnd","cl_cold","cl_trop","cl_temp","cl_rain","soc_dev","dr_r","v_220","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_lo","misc_hist"] },
+{ "n": "Arequipa (Peru)", "t": ["reg_sa","p_per","geo_mtn","geo_des","geo_bch","geo_cst","cl_cold","cl_hot","cl_trop","cl_temp","cl_rain","soc_dev","dr_r","v_220","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Ayacucho (Peru)", "t": ["reg_sa","p_per","geo_mtn","geo_lnd","cl_cold","cl_trop","cl_temp","cl_rain","soc_dev","dr_r","v_220","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Cajamarca (Peru)", "t": ["reg_sa","p_per","geo_mtn","geo_riv","geo_lnd","cl_cold","cl_trop","cl_temp","cl_rain","soc_dev","dr_r","v_220","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Callao (Peru)", "t": ["reg_sa","p_per","geo_des","geo_bch","geo_cst","geo_pln","cl_hot","cl_trop","cl_temp","soc_dev","inf_good","dr_r","v_220","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Cusco (Peru)", "t": ["reg_sa","p_per","geo_mtn","geo_fst","geo_riv","geo_lnd","cl_cold","cl_trop","cl_temp","cl_rain","soc_dev","dr_r","v_220","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Huancavelica (Peru)", "t": ["reg_sa","p_per","geo_mtn","geo_lnd","cl_cold","cl_trop","cl_temp","cl_rain","soc_dev","dr_r","v_220","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_lo","misc_hist"] },
+{ "n": "Huánuco (Peru)", "t": ["reg_sa","p_per","geo_mtn","geo_fst","geo_riv","geo_lnd","cl_cold","cl_trop","cl_temp","cl_rain","soc_dev","dr_r","v_220","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Ica (Peru)", "t": ["reg_sa","p_per","geo_des","geo_bch","geo_cst","geo_pln","cl_hot","cl_trop","soc_dev","dr_r","v_220","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Junín (Peru)", "t": ["reg_sa","p_per","geo_mtn","geo_riv","geo_lnd","cl_cold","cl_trop","cl_temp","cl_rain","soc_dev","dr_r","v_220","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "La Libertad (Peru)", "t": ["reg_sa","p_per","geo_mtn","geo_des","geo_bch","geo_cst","cl_hot","cl_trop","cl_temp","cl_rain","soc_dev","dr_r","v_220","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Lambayeque (Peru)", "t": ["reg_sa","p_per","geo_des","geo_bch","geo_cst","geo_pln","cl_hot","cl_trop","soc_dev","dr_r","v_220","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Lima (Peru)", "t": ["reg_sa","p_per","geo_mtn","geo_des","geo_bch","geo_cst","cl_cold","cl_hot","cl_trop","cl_temp","soc_dev","inf_good","dr_r","v_220","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Loreto (Peru)", "t": ["reg_sa","p_per","geo_fst","geo_riv","geo_lnd","geo_pln","cl_hot","cl_trop","cl_rain","soc_dev","inf_bad","dr_r","v_220","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Madre de Dios (Peru)", "t": ["reg_sa","p_per","geo_fst","geo_riv","geo_lnd","geo_pln","cl_hot","cl_trop","cl_rain","soc_dev","inf_bad","dr_r","v_220","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_lo","misc_hist"] },
+{ "n": "Moquegua (Peru)", "t": ["reg_sa","p_per","geo_mtn","geo_des","geo_bch","geo_cst","cl_cold","cl_trop","cl_temp","soc_dev","dr_r","v_220","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_lo","misc_hist"] },
+{ "n": "Pasco (Peru)", "t": ["reg_sa","p_per","geo_mtn","geo_fst","geo_riv","geo_lnd","cl_cold","cl_trop","cl_temp","cl_rain","soc_dev","dr_r","v_220","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_lo","misc_hist"] },
+{ "n": "Piura (Peru)", "t": ["reg_sa","p_per","geo_des","geo_bch","geo_cst","cl_hot","cl_trop","soc_dev","dr_r","v_220","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Puno (Peru)", "t": ["reg_sa","p_per","geo_mtn","geo_riv","geo_lnd","cl_cold","cl_trop","cl_temp","cl_snow","cl_rain","soc_dev","dr_r","v_220","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "San Martín (Peru)", "t": ["reg_sa","p_per","geo_mtn","geo_fst","geo_riv","geo_lnd","cl_hot","cl_trop","cl_rain","soc_dev","dr_r","v_220","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Tacna (Peru)", "t": ["reg_sa","p_per","geo_mtn","geo_des","geo_bch","geo_cst","cl_hot","cl_trop","cl_temp","soc_dev","dr_r","v_220","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
+{ "n": "Tumbes (Peru)", "t": ["reg_sa","p_per","geo_bch","geo_cst","geo_pln","cl_hot","cl_trop","cl_rain","soc_dev","dr_r","v_220","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_lo","misc_hist"] },
+{ "n": "Ucayali (Peru)", "t": ["reg_sa","p_per","geo_fst","geo_riv","geo_lnd","geo_pln","cl_hot","cl_trop","cl_rain","soc_dev","inf_bad","dr_r","v_220","food_spi","rel_chr","lang_sp","gov_rep","misc_pop_hi","misc_hist"] },
 
 
 
 
 
 ];
-// ... (rest of the script logic)
-  
-  // Romania soon 
 
 
 // ==========================================
@@ -1004,7 +1084,11 @@ function renderGrid() {
       if(item.t.includes("p_hnd")) badge = "Honduras";
       if(item.t.includes("p_slv")) badge = "El Salvador";
       if(item.t.includes("p_nic")) badge = "Nicaragua";
-      if(item.t.includes("p_crc")) badge = "Costa Rica";
+      if(item.t.includes("p_crc")) badge = "Costa Rica"; 
+      if(item.t.includes("p_ecu")) badge = "Ecuador";
+      if(item.t.includes("p_col")) badge = "Columbia";
+      if(item.t.includes("p_ven")) badge = "Venezuela";
+      if(item.t.includes("p_per")) badge = "Peru";
       
       
       card.innerHTML = `
